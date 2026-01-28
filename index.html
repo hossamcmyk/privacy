@@ -1,149 +1,234 @@
 <!DOCTYPE html>
-
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Brimagine - Privacy Policy</title>
-<!-- تم تصحيح رابط الخطوط ليعمل بشكل مباشر وصحيح بدلاً من رابط البحث -->
-<link href="https://www.google.com/search?q=https://fonts.googleapis.com/css2%3Ffamily%3DNoto%2BSans%2BArabic:wght%40400%3B700%26family%3DRoboto:wght%40400%3B700%26display%3Dswap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 <style>
-:root { --primary-color: #2196F3; --text-color: #333; --bg-color: #f4f7f9; }
-body { font-family: 'Noto Sans Arabic', 'Roboto', sans-serif; line-height: 1.6; color: var(--text-color); background-color: var(--bg-color); margin: 0; padding: 0; }
-.container { max-width: 800px; margin: 40px auto; background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
-.lang-switcher { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30 Arabic; justify-content: center; border-bottom: 2px solid #eee; padding-bottom: 20px; }
-.lang-btn { padding: 8px 16px; border: 1px solid var(--primary-color); background: #fff; color: var(--primary-color); border-radius: 20px; cursor: pointer; font-weight: bold; transition: 0.3s; }
-.lang-btn.active { background: var(--primary-color); color: #fff; }
+:root {
+  --primary-color: #2196F3;
+  --text-color: #333;
+  --bg-color: #f4f7f9;
+}
+body {
+  font-family: 'Noto Sans Arabic', 'Roboto', sans-serif;
+  background-color: var(--bg-color);
+  margin: 0;
+}
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.lang-switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.lang-btn {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid var(--primary-color);
+  background: #fff;
+  color: var(--primary-color);
+  cursor: pointer;
+  font-weight: bold;
+}
+.lang-btn.active {
+  background: var(--primary-color);
+  color: #fff;
+}
 .policy-content { display: none; }
 .policy-content.active { display: block; }
-h1 { color: var(--primary-color); text-align: center; }
-h2 { color: var(--primary-color); font-size: 1.2em; margin-top: 25px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
-.footer { text-align: center; margin-top: 40px; font-size: 0.85em; color: #777; border-top: 1px solid #eee; padding-top: 20px; }
-a { color: var(--primary-color); text-decoration: none; font-weight: bold; }
-b { color: #000; }
-[dir="ltr"] { text-align: left; }
-[dir="rtl"] { text-align: right; }
+
+h1, h2 { color: var(--primary-color); }
+h2 { border-bottom: 1px solid #eee; padding-bottom: 5px; }
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+  font-size: 0.85em;
+}
+a { color: var(--primary-color); font-weight: bold; }
 </style>
 </head>
+
 <body>
-
 <div class="container">
+
 <div class="lang-switcher">
-<button id="btn-ar" class="lang-btn" onclick="showLang('ar')">العربية</button>
-<button id="btn-en" class="lang-btn" onclick="showLang('en')">English</button>
-<button id="btn-fr" class="lang-btn" onclick="showLang('fr')">Français</button>
-<button id="btn-de" class="lang-btn" onclick="showLang('de')">Deutsch</button>
-<button id="btn-tr" class="lang-btn" onclick="showLang('tr')">Türkçe</button>
-<button id="btn-es" class="lang-btn" onclick="showLang('es')">Español</button>
+  <button id="btn-ar" class="lang-btn" onclick="showLang('ar')">العربية</button>
+  <button id="btn-en" class="lang-btn" onclick="showLang('en')">English</button>
+  <button id="btn-fr" class="lang-btn" onclick="showLang('fr')">Français</button>
+  <button id="btn-de" class="lang-btn" onclick="showLang('de')">Deutsch</button>
+  <button id="btn-tr" class="lang-btn" onclick="showLang('tr')">Türkçe</button>
+  <button id="btn-es" class="lang-btn" onclick="showLang('es')">Español</button>
 </div>
 
-<!-- المحتوى العربي -->
+<!-- ================= العربية ================= -->
 <div id="ar" class="policy-content" dir="rtl">
-    <h1>سياسة الخصوصية</h1>
-    <p>نحن في <b>Brimagine</b> نحترم خصوصية المستخدمين ونلتزم بحماية بياناتهم الشخصية وفقاً لأعلى المعايير.</p>
-    
-    <h2>1. جمع البيانات</h2>
-    <p>يقوم التطبيق بجمع بعض البيانات الأساسية مثل <b>البريد الإلكتروني</b> ومعرف المستخدم <b>(UID)</b> عند إنشاء الحساب. وقد يتم جمع اسم المستخدم في حال إدخاله من قبل المستخدم داخل التطبيق.</p>
-    <p>قد يتم جمع بيانات استخدام عامة بهدف تحسين أداء التطبيق وتجربة المستخدم، دون جمع معلومات تعريفية مباشرة.</p>
-    
-    <h2>2. الخدمات الخارجية</h2>
-    <p>يستخدم التطبيق خدمات خارجية موثوقة مثل <b>Firebase Authentication</b> و <b>Firebase Analytics</b> و <b>RevenueCat</b>، والتي قد تقوم بمعالجة بعض البيانات وفقاً لسياسات الخصوصية الخاصة بها.</p>
-    
-    <h2>3. أمن البيانات ومشاركتها</h2>
-    <p>يتم نقل وتخزين البيانات بشكل آمن باستخدام خدمات موثوقة. نحن لا نقوم ببيع أو مشاركة بيانات المستخدمين مع أي أطراف خارجية خارج نطاق تشغيل الخدمة.</p>
-    
-    <h2>4. حقوق المستخدم</h2>
-    <p>يمكن للمستخدم طلب حذف الحساب والبيانات المرتبطة به في أي وقت من خلال التواصل معنا عبر البريد الإلكتروني.</p>
-    <p>للتواصل: <a href="mailto:support@brimagine.com">support@brimagine.com</a></p>
+<h1>سياسة الخصوصية</h1>
+
+<p>نحن في <b>Brimagine</b> نحترم خصوصية المستخدمين ونلتزم بحماية بياناتهم الشخصية.</p>
+
+<h2>1. جمع البيانات</h2>
+<p>يقوم التطبيق بجمع بعض البيانات الأساسية مثل <b>البريد الإلكتروني</b> ومعرف المستخدم <b>(UID)</b> عند إنشاء الحساب.</p>
+<p>وقد يتم جمع <b>اسم المستخدم</b> في حال إدخاله من قبل المستخدم داخل التطبيق.</p>
+<p>قد يتم جمع بيانات استخدام عامة بهدف تحسين أداء التطبيق وتجربة المستخدم، دون جمع معلومات تعريفية مباشرة.</p>
+
+<h2>2. الخدمات الخارجية</h2>
+<p>يستخدم التطبيق خدمات خارجية موثوقة مثل <b>Firebase Authentication</b> و <b>Firebase Analytics</b>، والتي قد تقوم بمعالجة بعض البيانات وفقاً لسياسات الخصوصية الخاصة بها.</p>
+
+<h2>3. أمن البيانات ومشاركتها</h2>
+<p>يتم نقل وتخزين البيانات بشكل آمن باستخدام خدمات موثوقة مثل <b>Firebase</b>.</p>
+<p>لا نقوم ببيع أو مشاركة بيانات المستخدمين مع أي أطراف خارجية خارج نطاق تشغيل الخدمة.</p>
+
+<h2>4. حقوق المستخدم</h2>
+<p>يمكن للمستخدم طلب حذف الحساب والبيانات المرتبطة به في أي وقت.</p>
+<p>البريد الإلكتروني: <a href="mailto:support@brimagine.com">support@brimagine.com</a></p>
 </div>
 
-<!-- المحتوى الإنجليزي وبقية اللغات -->
+<!-- ================= English ================= -->
 <div id="en" class="policy-content" dir="ltr">
-    <h1>Privacy Policy</h1>
-    <p>At <b>Brimagine</b>, we respect user privacy and are committed to protecting personal data.</p>
-    <h2>1. Data Collection</h2>
-    <p>We collect <b>Email</b> and <b>User ID (UID)</b> during registration. Usernames may be collected if provided within the app.</p>
-    <h2>2. External Services</h2>
-    <p>We use <b>Firebase Authentication</b>, <b>Firebase Analytics</b>, and <b>RevenueCat</b>.</p>
-    <h2>3. Security</h2>
-    <p>Data is stored securely and never sold to third parties.</p>
-    <h2>4. User Rights</h2>
-    <p>Contact for deletion: <a href="mailto:support@brimagine.com">support@brimagine.com</a></p>
+<h1>Privacy Policy</h1>
+
+<p>At <b>Brimagine</b>, we respect user privacy and are committed to protecting personal data.</p>
+
+<h2>1. Data Collection</h2>
+<p>The app collects basic data such as <b>Email</b> and <b>User ID (UID)</b> during account creation.</p>
+<p>A <b>username</b> may also be collected if provided by the user.</p>
+<p>General usage data may be collected to improve app performance and user experience, without collecting directly identifiable information.</p>
+
+<h2>2. External Services</h2>
+<p>The app uses trusted third-party services such as <b>Firebase Authentication</b> and <b>Firebase Analytics</b>, which may process certain data according to their own privacy policies.</p>
+
+<h2>3. Data Security and Sharing</h2>
+<p>Data is transmitted and stored securely using trusted services such as <b>Firebase</b>.</p>
+<p>We do not sell or share user data with any third parties outside the scope of operating the service.</p>
+
+<h2>4. User Rights</h2>
+<p>Users may request deletion of their account and associated data at any time.</p>
+<p>Email: <a href="mailto:support@brimagine.com">support@brimagine.com</a></p>
 </div>
 
+<!-- ================= Français ================= -->
 <div id="fr" class="policy-content" dir="ltr">
-    <h1>Politique de Confidentialité</h1>
-    <p>Chez <b>Brimagine</b>, nous respectons la vie privée et protégeons vos données.</p>
-    <h2>1. Collecte</h2>
-    <p>Nous collectons l'e-mail et l'UID. Le nom d'utilisateur est facultatif.</p>
-    <h2>2. Services tiers</h2>
-    <p><b>Firebase</b> et <b>RevenueCat</b> sont utilisés.</p>
-    <h2>3. Droits</h2>
-    <p>Contact: <a href="mailto:support@brimagine.com">support@brimagine.com</a></p>
+<h1>Politique de Confidentialité</h1>
+
+<p>Chez <b>Brimagine</b>, nous respectons la vie privée des utilisateurs et protégeons leurs données personnelles.</p>
+
+<h2>1. Collecte des données</h2>
+<p>L'application collecte des données de base telles que l'<b>adresse e-mail</b> et l'<b>identifiant utilisateur (UID)</b> lors de la création du compte.</p>
+<p>Le <b>nom d'utilisateur</b> peut être collecté s'il est fourni par l'utilisateur.</p>
+<p>Des données d'utilisation générales peuvent être collectées afin d'améliorer les performances et l'expérience utilisateur, sans collecte d'informations directement identifiables.</p>
+
+<h2>2. Services tiers</h2>
+<p>L'application utilise des services tiers fiables tels que <b>Firebase Authentication</b> et <b>Firebase Analytics</b>, qui peuvent traiter certaines données conformément à leurs politiques de confidentialité.</p>
+
+<h2>3. Sécurité et partage</h2>
+<p>Les données sont transmises et stockées de manière sécurisée via des services fiables tels que <b>Firebase</b>.</p>
+<p>Nous ne vendons ni ne partageons les données des utilisateurs avec des tiers en dehors du fonctionnement du service.</p>
+
+<h2>4. Droits de l'utilisateur</h2>
+<p>L'utilisateur peut demander la suppression de son compte et des données associées à tout moment.</p>
+<p>Email : <a href="mailto:support@brimagine.com">support@brimagine.com</a></p>
 </div>
 
+<!-- ================= Deutsch ================= -->
 <div id="de" class="policy-content" dir="ltr">
-    <h1>Datenschutzerklärung</h1>
-    <p><b>Brimagine</b> schützt Ihre Privatsphäre و البيانات Personbezogenen.</p>
-    <h2>1. Datenerhebung</h2>
-    <p>Erhebung von E-Mail und UID bei der Registrierung.</p>
-    <h2>2. Externe Dienste</h2>
-    <p>Nutzung von <b>Firebase</b> und <b>RevenueCat</b>.</p>
-    <h2>3. Kontakt</h2>
-    <p>Löschung: <a href="mailto:support@brimagine.com">support@brimagine.com</a></p>
+<h1>Datenschutzrichtlinie</h1>
+
+<p>Bei <b>Brimagine</b> respektieren wir die Privatsphäre der Nutzer und verpflichten uns zum Schutz personenbezogener Daten.</p>
+
+<h2>1. Datenerhebung</h2>
+<p>Die App erfasst grundlegende Daten wie <b>E-Mail-Adresse</b> und <b>Benutzer-ID (UID)</b> bei der Kontoerstellung.</p>
+<p>Ein <b>Benutzername</b> kann erfasst werden, wenn er vom Nutzer angegeben wird.</p>
+<p>Allgemeine Nutzungsdaten können zur Verbesserung der App-Leistung und Nutzererfahrung erhoben werden, ohne direkt identifizierbare Informationen zu sammeln.</p>
+
+<h2>2. Externe Dienste</h2>
+<p>Die App nutzt vertrauenswürdige Drittanbieterdienste wie <b>Firebase Authentication</b> und <b>Firebase Analytics</b>, die Daten gemäß ihren Datenschutzrichtlinien verarbeiten können.</p>
+
+<h2>3. Datensicherheit und Weitergabe</h2>
+<p>Daten werden sicher über vertrauenswürdige Dienste wie <b>Firebase</b> übertragen und gespeichert.</p>
+<p>Wir verkaufen oder teilen keine Nutzerdaten mit Dritten außerhalb des Betriebs der App.</p>
+
+<h2>4. Nutzerrechte</h2>
+<p>Nutzer können jederzeit die Löschung ihres Kontos und der zugehörigen Daten beantragen.</p>
+<p>E-Mail: <a href="mailto:support@brimagine.com">support@brimagine.com</a></p>
 </div>
 
+<!-- ================= Türkçe ================= -->
 <div id="tr" class="policy-content" dir="ltr">
-    <h1>Gizlilik Politikası</h1>
-    <p><b>Brimagine</b> gizliliğinize saygı duyar ve verilerinizi korur.</p>
-    <h2>1. Veri Toplama</h2>
-    <p>E-posta ve UID toplanır. Kullanıcı adları isteğe bağlıdır.</p>
-    <h2>2. Dış Hizmetler</h2>
-    <p><b>Firebase</b> ve <b>RevenueCat</b> kullanılmaktadır.</p>
-    <h2>3. Haklar</h2>
-    <p>İletişim: <a href="mailto:support@brimagine.com">support@brimagine.com</a></p>
+<h1>Gizlilik Politikası</h1>
+
+<p><b>Brimagine</b>, kullanıcı gizliliğine saygı duyar ve kişisel verilerin korunmasına önem verir.</p>
+
+<h2>1. Veri Toplama</h2>
+<p>Uygulama, hesap oluşturulurken <b>e-posta adresi</b> ve <b>Kullanıcı Kimliği (UID)</b> gibi temel verileri toplar.</p>
+<p>Kullanıcı tarafından girilmesi halinde <b>kullanıcı adı</b> da toplanabilir.</p>
+<p>Uygulama performansını ve kullanıcı deneyimini iyileştirmek amacıyla, doğrudan tanımlayıcı bilgi içermeyen genel kullanım verileri toplanabilir.</p>
+
+<h2>2. Harici Hizmetler</h2>
+<p>Uygulama, <b>Firebase Authentication</b> ve <b>Firebase Analytics</b> gibi güvenilir üçüncü taraf hizmetleri kullanır.</p>
+
+<h2>3. Veri Güvenliği ve Paylaşımı</h2>
+<p>Veriler, <b>Firebase</b> gibi güvenilir hizmetler aracılığıyla güvenli şekilde iletilir ve saklanır.</p>
+<p>Kullanıcı verileri üçüncü taraflarla satılmaz veya paylaşılmaz.</p>
+
+<h2>4. Kullanıcı Hakları</h2>
+<p>Kullanıcılar istedikleri zaman hesaplarının ve ilgili verilerin silinmesini talep edebilir.</p>
+<p>E-posta: <a href="mailto:support@brimagine.com">support@brimagine.com</a></p>
 </div>
 
+<!-- ================= Español ================= -->
 <div id="es" class="policy-content" dir="ltr">
-    <h1>Política de Privacidad</h1>
-    <p>En <b>Brimagine</b>, respetamos su privacidad y protegemos sus datos.</p>
-    <h2>1. Recopilación</h2>
-    <p>Recopilamos correo y UID. Los nombres son opcionales.</p>
-    <h2>2. Servicios</h2>
-    <p>Usamos <b>Firebase</b> y <b>RevenueCat</b>.</p>
-    <h2>3. Contacto</h2>
-    <p>Eliminación: <a href="mailto:support@brimagine.com">support@brimagine.com</a></p>
+<h1>Política de Privacidad</h1>
+
+<p>En <b>Brimagine</b>, respetamos la privacidad de los usuarios y protegemos sus datos personales.</p>
+
+<h2>1. Recopilación de datos</h2>
+<p>La aplicación recopila datos básicos como <b>correo electrónico</b> e <b>ID de usuario (UID)</b> al crear una cuenta.</p>
+<p>El <b>nombre de usuario</b> puede recopilarse si el usuario lo proporciona.</p>
+<p>Pueden recopilarse datos generales de uso para mejorar el rendimiento y la experiencia del usuario, sin recopilar información directamente identificable.</p>
+
+<h2>2. Servicios externos</h2>
+<p>La aplicación utiliza servicios externos confiables como <b>Firebase Authentication</b> y <b>Firebase Analytics</b>.</p>
+
+<h2>3. Seguridad y uso de datos</h2>
+<p>Los datos se transmiten y almacenan de forma segura mediante servicios confiables como <b>Firebase</b>.</p>
+<p>No vendemos ni compartimos datos de los usuarios con terceros fuera del funcionamiento del servicio.</p>
+
+<h2>4. Derechos del usuario</h2>
+<p>Los usuarios pueden solicitar la eliminación de su cuenta y datos asociados en cualquier momento.</p>
+<p>Correo electrónico: <a href="mailto:support@brimagine.com">support@brimagine.com</a></p>
 </div>
 
 <div class="footer">
-    © <span id="year"></span> Brimagine - All Rights Reserved
+© <span id="year"></span> Brimagine – All Rights Reserved
 </div>
-
 
 </div>
 
 <script>
 document.getElementById('year').textContent = new Date().getFullYear();
 function showLang(lang) {
-document.querySelectorAll('.policy-content').forEach(el => el.classList.remove('active'));
-document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
-const content = document.getElementById(lang);
-if (content) {
-content.classList.add('active');
-document.body.dir = (lang === 'ar') ? 'rtl' : 'ltr';
-document.documentElement.lang = lang;
+  document.querySelectorAll('.policy-content').forEach(e => e.classList.remove('active'));
+  document.querySelectorAll('.lang-btn').forEach(e => e.classList.remove('active'));
+  document.getElementById(lang).classList.add('active');
+  document.getElementById('btn-' + lang).classList.add('active');
+  document.documentElement.lang = lang;
+  document.documentElement.dir = (lang === 'ar') ? 'rtl' : 'ltr';
 }
-const btn = document.getElementById('btn-' + lang);
-if (btn) btn.classList.add('active');
-}
-const urlParams = new URLSearchParams(window.location.search);
-let langParam = urlParams.get('lang');
-if (!langParam) {
-const browserLang = navigator.language.split('-')[0];
-const supportedLangs = ['ar', 'en', 'fr', 'de', 'tr', 'es'];
-langParam = supportedLangs.includes(browserLang) ? browserLang : 'ar';
-}
-showLang(langParam);
+showLang(navigator.language?.substring(0,2) || 'ar');
 </script>
 
 </body>
